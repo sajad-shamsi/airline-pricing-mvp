@@ -1,0 +1,14 @@
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Original and generated datasets
+data/raw/
+data/processed/
+
+# Local secrets and editor settings
+.env
+.env.*
+!.env.example
+.vscode/
